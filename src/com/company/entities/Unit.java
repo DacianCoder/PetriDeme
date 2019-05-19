@@ -1,5 +1,5 @@
 package com.company.entities;
 
-public class Entity {
+public class Unit {
     public String name;
 }
