@@ -3,7 +3,7 @@ package com.company.entities;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Transition extends Entity {
+public class Transition extends Unit {
 
     public List<Arc> enterArcs = new ArrayList<>();
     public List<Arc> leavingArcs = new ArrayList<>();

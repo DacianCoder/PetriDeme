@@ -2,10 +2,10 @@ package com.company;
 
 public class Constants {
 
-    public static String RUN = "run";
-    public static String EXIT = "exit";
-    public static String HELP = "help";
-    public static String PRINT = "print";
-    public static String EMPTY = "";
-    public static String CMDS = "cmds";
+    public static final String RUN = "run";
+    public static final String EXIT = "exit";
+    public static final String HELP = "help";
+    public static final String PRINT = "print";
+    public static final String EMPTY = "";
+    public static final String CMDS = "cmds";
 }

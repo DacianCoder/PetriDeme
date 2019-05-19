@@ -1,11 +1,10 @@
 package com.company.entities;
 
-public class Arc {
+public class Arc extends Unit {
 
-   public Entity from;
-   public Entity to;
+   public Unit from;
+   public Unit to;
 
    public int value=1;
 
-   public String name;
 }

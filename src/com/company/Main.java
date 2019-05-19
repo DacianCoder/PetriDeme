@@ -1,20 +1,20 @@
 package com.company;
 
-import com.company.logic.Run;
-import com.company.logic.Store;
+import com.company.logic.RunPetriNet;
+import com.company.logic.Data;
 
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Store store = new Store();
-        Run run = new Run();
-        run.store = store;
+        Data data = new Data();
+        RunPetriNet runPetriNet = new RunPetriNet();
+        runPetriNet.data = data;
 
         while (true) {
-            store.run(run);
-            run.run();
+            data.run();
+            runPetriNet.run();
         }
     }
 }
